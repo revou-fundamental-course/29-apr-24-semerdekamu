@@ -1,0 +1,99 @@
+/* CSS */
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+
+.nav-icon {
+    background-image: url(../Assets/Logo.png);
+    border: 0;
+    height: 48px;
+    width: 207px;
+    background-size: cover;
+    border-radius: 6px;
+}
+
+.garis-header {
+    color: green;
+}
+
+.navigation-container>nav>button {
+    height: 32px;
+    width: 120px;
+    border: 1px solid;
+    border-radius: 6px;
+    background-color: #171717;
+    border-color: #c7c9c9;
+    color: #c7c9c9;
+}
+
+.all-body {
+    background-color: #171717;
+}
+.content-container>header {
+text-align: center;
+color: #c7c9c9;
+}
+
+.body-content {
+    display: flex;
+}
+.core-body {
+    height: 200px;
+    width: 100%;
+    border: 1px solid;
+    border-color: #c7c9c9;
+    margin: 18px;
+}
+.core-body>header>h2 {
+    text-align: left;
+}
+
+.item-right {
+    background-color: #c7c9c9;
+    border: 0;
+    border-radius: 8px;
+    width: 400px;
+    height: 360px;
+}
+
+.itemcontentright {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.item-form {
+    text-align: left;
+}
+.item-form>input {
+    height: 32px;
+    width: 50%;
+    margin-left: 4px;
+    border: 1px solid darkgrey;
+    border-radius: 8px;
+}
+
+.third-content {
+    color: #c7c9c9;
+    margin-right: 900px;
+    margin-left: 100px;
+}
+
+.third-content>p {
+    margin-left: 100px;
+}
+
+.our-package {
+    background-color: #c7c9c9;
+    height: 100px;
+    align-content: center;
+}
+.our-package>h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
