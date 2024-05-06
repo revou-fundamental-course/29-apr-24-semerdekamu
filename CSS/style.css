@@ -35,6 +35,7 @@
 .all-body {
     background-color: #171717;
 }
+
 .content-container>header {
 text-align: center;
 color: #c7c9c9;
@@ -43,6 +44,7 @@ color: #c7c9c9;
 .body-content {
     display: flex;
 }
+
 .core-body {
     height: 200px;
     width: 100%;
@@ -59,16 +61,47 @@ color: #c7c9c9;
     border: 0;
     border-radius: 8px;
     width: 400px;
-    height: 360px;
+    height: 460px;
 }
 
 .itemcontentright {
     margin-left: 32px;
     margin-right: 32px;
+    margin-top: 55px;
 }
 .item-form {
     text-align: left;
 }
+
+#name {
+    width: 290px;
+    height: 30px;
+    border: 0;
+    border-radius: 6px;
+}
+
+#email {
+    width: 290px;
+    height: 30px;
+    border: 0;
+    border-radius: 6px;
+}
+
+#select-option {
+    width: 295px;
+    height: 30px;
+    border: 0;
+    border-radius: 6px;
+}
+
+.submit {
+    width: 295px;
+    height: 30px;
+    border: 0;
+    border-radius: 6px;
+    background-color: #8C8C8C;
+}
+
 .item-form>input {
     height: 32px;
     width: 50%;
@@ -96,4 +129,75 @@ color: #c7c9c9;
     text-align: center;
     font-size: 24px;
     font-weight: bold;
+}
+
+.second-body-content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.bali {
+    border-radius: 6px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #c7c9c9;
+    border: 1px solid;
+    width: 300px;
+}
+
+.raja-ampat {
+    border-radius: 6px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #c7c9c9;
+    border: 1px solid;
+    width: 300px;;
+}
+
+.banda-neira {
+    border-radius: 6px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #c7c9c9;
+    border: 1px solid;
+    width: 300px;
+}
+
+.third-body-content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.taman-laut-bunaken {
+    border-radius: 6px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #c7c9c9;
+    border: 1px solid;
+    width: 300px;
+}
+
+.gili-trawangan {
+    border-radius: 6px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #c7c9c9;
+    border: 1px solid;
+    width: 300px;
+}
+
+.labuan-bajo {
+    border-radius: 6px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #c7c9c9;
+    border: 1px solid;
+    width: 300px;
+}
+
+.forth-content {
+    text-align: center;
+    color: #c7c9c9;
 }
