@@ -138,30 +138,43 @@ color: #c7c9c9;
 }
 
 .bali {
+    background-image: url(../Assets/bali\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px 100px;
     border-radius: 6px;
-    margin-left: 50px;
-    margin-right: 50px;
-    color: #c7c9c9;
-    border: 1px solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    border: 0;
     width: 300px;
+    height: 100px;
+    text-align: center;
 }
 
 .raja-ampat {
+    background-image: url(../Assets/raja\ ampat\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px 100px;
     border-radius: 6px;
-    margin-left: 50px;
-    margin-right: 50px;
-    color: #c7c9c9;
-    border: 1px solid;
-    width: 300px;;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    border: 0;
+    width: 300px;
+    height: 100px;
 }
 
 .banda-neira {
+    background-image: url(..//Assets/banda\ neira\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px 100px;
     border-radius: 6px;
-    margin-left: 50px;
-    margin-right: 50px;
-    color: #c7c9c9;
-    border: 1px solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    border: 0;
     width: 300px;
+    height: 100px;
 }
 
 .third-body-content {
@@ -171,33 +184,55 @@ color: #c7c9c9;
 }
 
 .taman-laut-bunaken {
+    background-image: url(..//Assets/bunaken.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px 100px;
     border-radius: 6px;
-    margin-left: 50px;
-    margin-right: 50px;
-    color: #c7c9c9;
-    border: 1px solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    border: 0;
     width: 300px;
+    height: 100px;
 }
 
 .gili-trawangan {
+    background-image: url(..//Assets/gili\ trawangan\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px 100px;
     border-radius: 6px;
-    margin-left: 50px;
-    margin-right: 50px;
-    color: #c7c9c9;
-    border: 1px solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    border: 0;
     width: 300px;
+    height: 100px;
 }
 
 .labuan-bajo {
+    background-image: url(..//Assets/labuan\ bajo\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px 100px;
     border-radius: 6px;
-    margin-left: 50px;
-    margin-right: 50px;
-    color: #c7c9c9;
-    border: 1px solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    border: 0;
     width: 300px;
+    height: 100px;
+}
+
+h3 {
+    margin-top: 40px;
 }
 
 .forth-content {
     text-align: center;
     color: #c7c9c9;
+}
+
+.call-action {
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
 }
