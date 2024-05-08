@@ -236,3 +236,13 @@ h3 {
     height: 40px;
     border-radius: 20px;
 }
+
+.footer-content {
+    text-align: center;
+    color: #c7c9c9;
+    font-size: 70%;
+}
+
+#end-logo {
+    width: 120px;
+}
