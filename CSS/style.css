@@ -34,11 +34,12 @@
 
 .all-body {
     background-color: #171717;
+    margin: 0;
 }
 
 .content-container {
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 185px;
+    margin-right: 185px;
 }
 
 .content-container>header {
@@ -48,6 +49,14 @@ color: #c7c9c9;
 
 .body-content {
     display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 480px) {
+    .body-content {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .core-body {
@@ -55,10 +64,26 @@ color: #c7c9c9;
     width: 100%;
     border: 1px solid;
     border-color: #c7c9c9;
-    margin: 18px;
+    margin-top: 18px;
 }
 .core-body>header>h2 {
     text-align: left;
+}
+
+.core-item {
+    border: 0;
+    width: 700px;
+    height: 460px;
+    border-radius: 6px;
+    margin-top: 18px;
+}
+
+.banner-item {
+    height: 460px;
+    width: 700px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 6px;
 }
 
 .item-right {

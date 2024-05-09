@@ -24,7 +24,13 @@
                 <p>Your Trip Is Our Income</p>
             </header>
             <section class="body-content">
-                <div class="core-body"></div>
+                <div class="core-item">
+                    <div class="banner-item" style="background-image: url(/Assets/slide1.jpg);"></div>
+                    <div class="banner-item" style="background-image: url(/Assets/slide2.jpg);"></div>
+                    <div class="banner-item" style="background-image: url(/Assets/slide3.jpg);"></div>
+                    <div class="banner-item" style="background-image: url(/Assets/slide4.jpg);"></div>
+                    <div class="banner-item" style="background-image: url(/Assets/slide5.jpg);"></div>
+                </div>
                 <div class="core-body item-right">
                     <header class="itemcontentright">
                         <h2>Contact Us</h2>
@@ -32,8 +38,8 @@
 
                         <section class="item-form">
                             <form>
-                                <label for="name">Your Name :</label><br>
-                                <input type="text" id="name" name="name"><br>
+                                <div style="padding-bottom: 30px;">
+                                <label>Your Name :</label><input type="text" name="name" id="form-username" required /><br>
                                 <br>
                                 <label for="email">Email Address :</label><br>
                                 <input type="text" id="email" name="email"><br>
@@ -47,11 +53,10 @@
                                     <option value="bunaken">Taman Laut Bunaken</option>
                                     <option value="ntb">Gili Trawangan</option>
                                 </select>
+                                </div>
+                                <button id="send-button" type="button">Send</button>
                               </form>
                               <br>
-                              <p>
-                                <input class="submit" type="submit" value="Send">
-                              </p>
                         </section>
                     </header>
                 </div>
