@@ -11,6 +11,13 @@ function validation() {
         alert('Welcome' + username)
         console.log(username);
     }
+
+    let email = document.getElementById('email').value;
+    console.log(email);
+    if (email == '' || email == null) {
+        document.getElementById('email').style.border = '1px solid red';
+        alert('Inputan Anda Kosong, Periksa Kembali')
+    }
 }
 
 
@@ -48,4 +55,5 @@ function showSlide(index) {
 
 setInterval(() => nextSlide(1), 2000);
 
+document.getElementById('send-button').addEventListener('click', () => validation())
 document.getElementById('send-button').addEventListener('click', () => nextSlide(1))
