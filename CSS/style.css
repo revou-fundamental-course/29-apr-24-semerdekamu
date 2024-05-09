@@ -55,11 +55,32 @@ color: #c7c9c9;
     justify-content: space-between;
 }
 
-@media only screen and (max-width: 480px) {
+/* dimension ipad mini */
+
+@media only screen and (max-width: 800px) {
+    .navigation-container {
+        margin-left: 30px;
+        margin-right: 5px;
+        padding: 5px;
+    }
+    .content-container {
+        margin-left: 30px;
+        margin-right: 10px;
+    }
     .body-content {
         display: flex;
         flex-direction: column;
+        width: 100px;
     }
+
+    .item-right {
+        align-items: center;
+    }
+    .third-content {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
 }
 
 .core-body {
